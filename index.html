@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OdinAcademy - Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assests/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header>
+        <div class="account-holder-info">
+          <p>Welcome back!</p>
+          <h2 style="margin-right: auto; font-size: 3rem">Jone Jones</h2>
+          <p>Last online <span>9 Nov 2001</span></p>
+        </div>
+        <div class="controls">
+          <button>Logout</button>
+        </div>
+      </header>
+      <nav>
+        <div class="logo-container">
+          <img src="assests/logo.png" alt="" />
+          <h1>Dashboard</h1>
+        </div>
+        <ul>
+          <li>
+            <img src="assests/home-account.svg" alt="" />
+            <a href="">Home</a>
+          </li>
+          <li>
+            <img src="assests/security.svg" alt="" />
+            <a href="">Account security</a>
+          </li>
+          <li>
+            <img src="assests/account-credit-card.svg" alt="" />
+            <a href="">Manage subscriptions</a>
+          </li>
+          <li class="nav-course-wrapper">
+            <img src="assests/language-css3.svg" alt="" />
+            <div class="inner-list">
+              <span class="nav-summary">Responsive Design</span>
+              <ul>
+                <div>
+                  <li><a href="">Overview</a></li>
+                  <li><a href="">Favortie pages</a></li>
+                  <li><a href="">Your notes</a></li>
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-course-wrapper">
+            <img src="assests/language-javascript.svg" alt="" />
+            <div class="inner-list">
+              <span class="nav-summary">Javascript</span>
+              <ul>
+                <div>
+                  <li><a href="">Overview</a></li>
+                  <li><a href="">Favortie pages</a></li>
+                  <li><a href="">Your notes</a></li>
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-course-wrapper">
+            <img src="assests/react.svg" alt="" />
+            <div class="inner-list">
+              <span>React</span>
+              <ul>
+                <div>
+                  <li><a href="">Overview</a></li>
+                  <li><a href="">Favortie pages</a></li>
+                  <li><a href="">Your notes</a></li>
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <img src="assests/security.svg" alt="" />
+            <a href="">Settings</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <div class="card">
+          <img src="../assests/logo.png" alt="" />
+          <div class="card-info">
+            <p><span class="course-level">Advanced</span></p>
+            <h2>Advanced Responsive Design</h2>
+            <div>
+              <p>
+                <span class="tags">HTML</span> <span class="tags">CSS</span>
+              </p>
+            </div>
+            <p><span class="author">By: Ted Bundy</span></p>
+          </div>
+          <div class="card-status">
+            <div class="tracker-container">
+              <svg
+                class="svg-tracker js-progress-tracker"
+                data-value="73"
+                viewBox="0 0 100 100"
+                width="100"
+                height="100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="circle-background"
+                  cx="50"
+                  cy="50"
+                  r="35"
+                ></circle>
+                <circle class="circle-progress" cx="50" cy="50" r="35"></circle>
+                <text
+                  class="percentage-text"
+                  x="50"
+                  y="-50"
+                  transform="rotate(90)"
+                >
+                  0%
+                </text>
+              </svg>
+            </div>
+            <p class="course-validity">Started on 19 Nov 2024</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assests/logo.png" alt="" />
+          <div class="card-info">
+            <p><span class="course-level">Intermediate</span></p>
+            <h2>Javascript: an In-depth Review</h2>
+            <div>
+              <p><span class="tags">JS</span></p>
+            </div>
+            <p><span class="author">By: Harvey Lee Oswald</span></p>
+          </div>
+          <div class="card-status">
+            <div class="tracker-container">
+              <svg
+                class="svg-tracker js-progress-tracker"
+                data-value="12"
+                viewBox="0 0 100 100"
+                width="100"
+                height="100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="circle-background"
+                  cx="50"
+                  cy="50"
+                  r="35"
+                ></circle>
+                <circle class="circle-progress" cx="50" cy="50" r="35"></circle>
+                <text
+                  class="percentage-text"
+                  x="50"
+                  y="-50"
+                  transform="rotate(90)"
+                >
+                  0%
+                </text>
+              </svg>
+            </div>
+            <p class="course-validity">Started on 19 Nov 2024</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assests/logo.png" alt="" />
+          <div class="card-info">
+            <p><span class="course-level">Advanced</span></p>
+            <h2>React: All what you need to know</h2>
+            <div>
+              <p><span class="tags">framework and liberaries</span></p>
+            </div>
+            <p><span class="author">By: Brian Colt</span></p>
+          </div>
+          <div class="card-status">
+            <div class="tracker-container">
+              <svg
+                class="svg-tracker js-progress-tracker"
+                data-value="51"
+                viewBox="0 0 100 100"
+                width="100"
+                height="100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  class="circle-background"
+                  cx="50"
+                  cy="50"
+                  r="35"
+                ></circle>
+                <circle class="circle-progress" cx="50" cy="50" r="35"></circle>
+                <text
+                  class="percentage-text"
+                  x="50"
+                  y="-50"
+                  transform="rotate(90)"
+                >
+                  0%
+                </text>
+              </svg>
+            </div>
+            <p class="course-validity">Started on 19 Nov 2024</p>
+          </div>
+        </div>
+      </main>
+      <div class="widgets">
+        <div class="completion-tracker">
+          <div class="tracker-container">
+            <svg
+              class="svg-tracker js-progress-tracker"
+              data-value="45"
+              viewBox="0 0 100 100"
+              width="100"
+              height="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle class="circle-background" cx="50" cy="50" r="35"></circle>
+              <circle class="circle-progress" cx="50" cy="50" r="35"></circle>
+              <text
+                class="percentage-text"
+                x="50"
+                y="-50"
+                transform="rotate(90)"
+              >
+                0%
+              </text>
+            </svg>
+          </div>
+          <p>All courses progress</p>
+        </div>
+        <div class="countdown1">
+          Your subscription ends on <br />
+          25 Jan 2025
+          <a href="http://">Renew Now!</a>
+        </div>
+        <div class="countdown2">
+          Check out these courses! <br />
+          <a href="http://">Next.js</a>
+          <a href="http://">Python</a>
+        </div>
+        <div class="week-grid">
+          Check your calendar
+          <div>
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="dayx">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="dayx">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="dayx">19</div>
+            <div class="day">10</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="dayx">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        Odin Academy is a fake page. We don't offer any courses. You are free to
+        get in touch if you want to give me money but I won't give you anythin
+        in return
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
